@@ -19,6 +19,7 @@ docker rm $(docker ps -a -q) -f | removes all downloaded images based on ids
 docker run -d --name nginx -p 8080:80 --mount tipe=bind,source=[path]/target=[path] | share files with container and local machine
 **http://host.docker.internal:[port]** | accesses a local port of the user's machine and not of the container, this inside an application inside another container/process
 
+
 ## NOMENCLATURES
 
 > LINE COMMAND | DESCRIPTION
