@@ -1,7 +1,7 @@
 # COMMANDS DOCKER
 ## *Here are some commands that are useful in your day using docker, you can also replace the word "docker" with "docker-compose" some commands may work*
 
-LINE COMMAND | ACTIONS
+_LINE COMMAND_ | _ACTIONS_
 ------------ | -------------
 docker ps | list he containers 
 docker ps --all	 | lists containers that have been executed and are no longer active at this time.
@@ -22,7 +22,7 @@ docker run -d --name nginx -p 8080:80 --mount tipe=bind,source=[path]/target=[pa
 
 ## NOMENCLATURES
 
-> LINE COMMAND | DESCRIPTION
+_LINE COMMAND_ | _DESCRIPTION_
 ------------ | -------------
 -i | iterative mode
 -t or tty| allows typing commands
